@@ -1,0 +1,119 @@
+@font-face {
+  font-family: arialrounded;
+  src: url(../font/arialrounded.ttf);
+}
+
+body {
+	background-color: #355E3B;
+}
+
+.navbar {
+	background-color: forestgreen;
+	margin-top: 50px;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+.navbar a {
+  	font-family: arialrounded;
+  	letter-spacing: 3px;
+  	margin-right: 50px;
+}
+
+
+.nav-link {
+		font-size: 110%;
+}
+.carousel {
+		margin-right: 80px;
+		margin-left: 80px;
+}
+
+.carousel-item {
+	height: 32rem;
+	background: black;
+	position: relative;
+	color: white;
+	background-position: center;
+	background-size: cover;
+	text-align: center; 
+}
+
+.container {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding-bottom: 15%;
+
+}
+
+.container h1 {
+	font-size: 300%;
+	font-weight: 400;
+	text-shadow: 1px 1px 20px #000;
+	padding-bottom: 2%;
+}
+
+.container a {
+	font-weight: 600;
+	text-shadow: 1px 1px 20px #000;
+	margin-bottom: 6%;
+	background-color: forestgreen;
+}
+
+.overlay-image {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	background-position: center;
+	background-size: cover;
+	opacity: 0.5;
+}
+
+/*-- Media  Queries --*/
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 992px) {
+	.container h1 {
+		font-size: 230%;
+	}
+	.container a {
+		margin-bottom: 15%;
+	}	
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 768px) {
+	.container h1 {
+		font-size: 240%;
+		padding-bottom: 3%;
+	}
+	.container a {
+		margin-bottom: 25%;
+	}	
+}
+
+/* Extra small devices (portrait phones, less than 431px)*/
+@media (max-width: 431px) {
+	.navbar {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.carousel {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.container h1 {
+		font-size: 190%;
+		padding-bottom: 3%;
+	}
+	.container a {
+		margin-bottom: 40%;
+	}
+	.navbar a {
+  	margin-right: 0px;
+	}
+}

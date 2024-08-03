@@ -1,0 +1,30 @@
+.ccseries {
+	font-family: arialrounded;
+  	font-size: 200%;  
+  	letter-spacing: 20px;
+  	padding: 20px;
+	text-align: center;
+  	text-shadow: 5px 5px 10px #228B22;
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 768px) {
+	.card-img-top {
+		width: 80%;
+		height: 100%;
+	}
+	.card {
+		height: 32rem !important;
+	}
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 576px) {
+	.card-img-top {
+  		width: 80%;
+  		height: 100%;
+	}
+	.card {
+		height: 32rem !important;
+	}
+}

@@ -1,0 +1,125 @@
+@font-face {
+  font-family: arialrounded;
+  src: url(../font/arialrounded.ttf);
+}
+
+body {
+	background-color: #355E3B;
+}
+
+.navbar {
+	background-color: forestgreen;
+	margin-top: 50px;
+}
+
+.navbar a {
+  	font-family: arialrounded;
+  	letter-spacing: 3px;
+  	margin-right: 50px;
+}
+
+.nav-link {
+	font-size: 110%;
+}
+
+.logo {
+	padding-top: 30px;
+	font-size: 200%;  
+	font-weight: 600;
+	text-align: center;
+}
+
+.style {
+	background-color: #ACE1AF;
+	font-family: arialrounded;
+	letter-spacing: 3px;
+	margin-bottom: 20px
+}
+
+.connect {
+	margin-bottom: 40px;
+	margin-top: 40px;
+	margin-left: 170px;
+}
+
+.contact {
+	font-size: 150%;
+	margin-right: 50px;
+	margin-left: 100px;
+	padding-top: 20px;
+}
+
+.hr {
+	border-top: 1px dashed forestgreen;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+/*-- Media  Queries --*/
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1200px) {
+	.style {
+		margin-bottom: 20px;
+	}
+	.contact {
+		margin-left: 40px;
+	}
+	.connect {
+		margin-left: 0px;
+		text-align: center;
+	}
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 992px) {
+	.style {
+		margin-bottom: 20px;
+	}
+	.logo {
+		font-size: 160%;  
+	}
+	.hr {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.contact {
+		font-size: 140%;
+		margin-left: 10px;
+		padding-top: 10px;
+	}
+	.connect {
+		margin-left: 0px;
+		text-align: center;
+	}
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 768px) {
+	.style {
+		height: 32rem;
+	}
+	.contact {
+		font-size: 130%;
+		margin-left: 40px;
+	}
+	.connect {
+		margin-left: 0px;
+		text-align: center;
+	}
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 576px) {
+	.style {
+		height: 34rem;
+	}
+	.contact {
+		font-size: 130%;
+		margin-left: 40px;
+	}
+	.connect {
+		margin-left: 0px;
+		text-align: center;
+	}
+}

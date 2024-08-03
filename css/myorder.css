@@ -1,0 +1,143 @@
+.formcss {
+  justify-content: center;
+}
+
+.myorderpage {
+  background: lightgray;
+  border: 1px solid gray;
+  text-align: center; 
+}
+
+.col-order {
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.item-title {
+  margin-left: .5em;
+  font-size: 1.2em;
+}
+
+.price {
+  font-size: 1.2em;
+}
+
+.quantity-input {
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #56CCF2;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
+}
+
+.total {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.total-title {
+  font-size: 1.5em;
+  margin-right: 20px;
+}
+
+.total-price {
+  font-size: 1.1em;
+}
+
+/*-- Media  Queries --*/
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1200px) {
+
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 992px) {
+
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 768px) {
+  .myorderpage {
+    width: 80%;
+    padding: 20px !important;
+  }
+  .item-image {
+    width: 80px;
+    height: 80px;
+    margin-left: 12px;
+  }
+  .item-title {
+    margin-left: 10px;
+    font-size: 1.1em;
+  }
+  .order {
+    font-size: 17px !important;
+    text-align: center;
+    padding-bottom: 3px !important;
+    padding-top: 3px !important;
+  }
+  .item {
+    display: block;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 576px) {
+  .item-image {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+  }
+  .item-title {
+    margin-left: 10px;
+    font-size: .9em;
+  }
+  .myorderpage {
+    width: 80%;
+    padding: 20px !important;
+  }
+  .form-control {
+    width: 70% !important;
+    margin-left: 50px;
+  }
+  .btn-danger {
+    font-size: 10px;
+    padding: 5px;
+  }
+  .col-head {
+    font-size: .6em !important;
+ }
+  .price {
+    font-size: 1em;
+ }
+  .quantity-input {
+    height: 30px;
+    width: 45px;
+    font-size: .8em;
+    margin-right: 10px;
+  }
+  .total {
+    margin-bottom: 10px;
+  }
+  .bottom-page {
+    font-size: 17px;
+  }
+  .order {
+    font-size: 17px !important;
+    text-align: center;
+    padding-bottom: 3px !important;
+    padding-top: 3px !important;
+  }
+  .item {
+    width: 30% !important;
+    display: block;
+  }
+}

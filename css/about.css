@@ -1,0 +1,107 @@
+@font-face {
+  font-family: arialrounded;
+  src: url(../font/arialrounded.ttf);
+}
+
+body {
+	background-color: #355E3B;
+}
+
+.navbar {
+	background-color: forestgreen;
+	margin-top: 50px;
+}
+
+.navbar a {
+  	font-family: arialrounded;
+  	letter-spacing: 3px;
+  	margin-right: 50px;
+}
+
+.nav-link {
+	font-size: 110%;
+}
+
+.about h1 {
+	font-family: arialrounded;
+  	font-size: 200%;  
+  	letter-spacing: 10px;
+  	padding: 30px;
+  	text-align: center;
+  	text-shadow: 5px 5px 10px #008000;
+  	color: black;
+  	font-family: arialrounded;
+}
+
+.about p {
+	text-align: left;
+	font-size: 18px;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-weight: 600;
+	font-family: arialrounded;
+	letter-spacing: 2px;
+}
+
+.about {
+	background-color: #ACE1AF;
+	margin-bottom: 20px;
+}
+
+.map {
+	height: 25rem;
+	margin-bottom: 20px;
+}
+
+.card-body h2 {
+  	font-size: 200%;  
+  	letter-spacing: 5px;
+  	text-shadow: 2px 2px 1px #228B22;
+  	color: black;
+  	font-family: arialrounded;
+}
+
+.card-body h5 {
+	color: #1e5631;
+  	font-family: arialrounded;
+  	font-size: 120%;  
+  	letter-spacing: 5px;
+  	font-weight: 600;
+}
+
+.award h2 {
+	padding-bottom: 23px;
+}
+
+.card-img-top {
+  height: 25rem;
+  width: 80%;
+}
+
+/*-- Media  Queries --*/
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1200px) {
+	.map {
+		height: 31rem;
+	}
+	.award h2 {
+		padding-bottom: 61px;
+	}
+}
+
+/* Extra small devices (portrait phones, less than 431px)*/
+@media (max-width: 431px) {
+	.navbar {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.map {
+		margin-bottom: 20px;
+		height: 20rem;
+	}
+	.card-img-top {
+  		height: 20rem;
+  		width: 80%;
+	}
+}
